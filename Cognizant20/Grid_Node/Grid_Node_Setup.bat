@@ -1,0 +1,1 @@
+java -Dwebdriver.ie.driver=..\Grid_Node\IEDriverServer.exe -jar ..\Grid_Node\selenium-server-standalone-2.53.0.jar -role node -hub http://192.168.0.102:4444/grid/register

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cognizant2.0]">
+  <test name="Test">
+    <classes>
+      <class name="com.Cognizant.C2.Component.TaskCreate"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Cognizant.C2.Component.TaskCreate">
+        <methods>
+          <include name="UserTaskSubmit"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.Cognizant.C2.Component.TaskCreate -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Cognizant2.0] -->

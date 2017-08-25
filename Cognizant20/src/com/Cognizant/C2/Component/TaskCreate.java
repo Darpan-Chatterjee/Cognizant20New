@@ -89,7 +89,7 @@ public class TaskCreate {
 		GlobalVariable.myDriver.close();
 	}
 	
-  //@Test
+  @Test
   public void UserTaskCreate() throws Exception 
   {
 	  String parent_window= GlobalVariable.myDriver.getWindowHandle();
@@ -153,7 +153,7 @@ public class TaskCreate {
 	  }	  	  
   }
   
-  @Test
+  //@Test
   public void UserTaskSubmit() throws Exception 
   {
 	  String parent_window= GlobalVariable.myDriver.getWindowHandle();

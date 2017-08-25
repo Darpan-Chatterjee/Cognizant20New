@@ -133,7 +133,7 @@ public class CreateTaskPage {
 					GlobalVariable.myDriver.findElement(By.xpath(resourceC2Part1+counter+resourceC2Part2)).click();
 					Thread.sleep(2000);
 				}
-				System.out.println(el_resource.getText());
+				//System.out.println(el_resource.getText());
 			}
 		}
 		GlobalVariable.myDriver.findElement(By.xpath(resourceSave)).click();
